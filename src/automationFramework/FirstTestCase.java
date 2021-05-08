@@ -12,8 +12,12 @@ public class FirstTestCase {
          final  String siteURL = "https://www.google.com/";
          
 		//2. Locate A Web Driver BY Locating the path
-         final String driverPath = "C:\\Users\\nayak\\Desktop\\simplilearn\\Phase_5_FSD\\FSD-5 WorkSpace-Practice-Projects\\DemoSeleniumTestOne\\driver\\msedgedriver.exe";
-		
+         
+         //final String driverPath = "C:\\Users\\nayak\\Desktop\\simplilearn\\Phase_5_FSD\\FSD-5 WorkSpace-Practice-Projects\\DemoSeleniumTestOne\\driver\\msedgedriver.exe";
+         
+         final String driverPath = "driver\\msedgedriver.exe";
+         
+         
          //3. Set Selenium System Properties.
           System.setProperty("webdriver.edge.driver",driverPath);
 		
