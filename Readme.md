@@ -1,17 +1,18 @@
 # Error To Resolve :
  Error Snapshot :
  <img src="img/0001.jpg">
+ 
 ```
 Error Message: 
-
 Exception in thread "main" java.lang.Error: Unresolved compilation problems: WebDriver cannot be resolved to a type EdgeDriver cannot be resolved to a type at automationFramework.FirstTestCase.main(FirstTestCase.java:22)
+
 ```
 
 # Steps To Set Up A WebDriver: 
 
 1. > Download Selenium Standalone Server.jar from the official site:  [Click Here To Download .jar File For Java](https://www.selenium.dev/downloads/)
 
-2. > Download Selenium WebDriver `Specific to your Browser`. I choose [Microsoft Edge Browser i.e. Edge Browser Version: 90.0.818.56: x64 ](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/#downloads)
+2. > Download Selenium WebDriver `Specific to your Browser. My microsoft edge version is: ` 90.0.818.56` So, I downloads, Edge Browser Version: 90.0.818.56: x64 ](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/#downloads)
 
 3. > Lunch Eclipse and create a java project or maven based java project
    
