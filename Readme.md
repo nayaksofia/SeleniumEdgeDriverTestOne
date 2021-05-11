@@ -2,8 +2,9 @@
 
 1. > Download Selenium Standalone Server.jar from the official site:  [Click Here To Download .jar File For Java](https://www.selenium.dev/downloads/)
 
-2. > Download Selenium WebDriver `Specific to your Browser.
-3. > My microsoft edge version is: ` 90.0.818.56` So, I downloads, 
+2. > Download Selenium WebDriver `Specific to your Browser`. My browser is :`Microsoft Browser`.
+   
+3. > My Microsoft Edge Version is: ` 90.0.818.56` So, I downloads, 
 [Edge Browser Version: 90.0.818.56: x64](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/#downloads)
 
 4. > Lunch Eclipse and create a java project or maven based java project
