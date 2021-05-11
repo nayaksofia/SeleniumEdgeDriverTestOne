@@ -3,7 +3,7 @@ package automationFramework;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
-public class FirstTestCase {
+public class GoogleHomePageTest {
 	
 	//FirstTest: Is For Google Home Page Test.
 	

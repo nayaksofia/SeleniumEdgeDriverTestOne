@@ -1,13 +1,3 @@
-# Error To Resolve :
- Error Snapshot :
- <img src="img/0001.jpg">
- 
-```
-Error Message: 
-Exception in thread "main" java.lang.Error: Unresolved compilation problems: WebDriver cannot be resolved to a type EdgeDriver cannot be resolved to a type at automationFramework.FirstTestCase.main(FirstTestCase.java:22)
-
-```
-
 # Steps To Set Up A WebDriver: 
 
 1. > Download Selenium Standalone Server.jar from the official site:  [Click Here To Download .jar File For Java](https://www.selenium.dev/downloads/)
@@ -46,11 +36,11 @@ After it, Right click on the `project name` -> Click on `Build Path` -> `Configu
 >**Step-4:** Now Let's write `test cases`. So create ` A Class`. 
 ```
 Package Name: automationFramework 
-Class Name : FirstTestCase.java
+Class Name : GoogleHomePageTest.java
 And Check the Main Method.
 ```
 
->**Step-5:** Write The code for the `Class: FirstTestCase.java` .
+>**Step-5:** Write The code for the `Class:GoogleHomePageTest.java` .
 
 ```
 //FirstTest: Is For Google Home Page Test.
@@ -74,3 +64,19 @@ And Check the Main Method.
 
 
 ```
+# Error-1 :
+ Error Snapshot :
+ <img src="img/0001.jpg">
+ 
+```
+Error Message: 
+Exception in thread "main" java.lang.Error: Unresolved compilation problems: WebDriver cannot be resolved to a type EdgeDriver cannot be resolved to a type at automationFramework.FirstTestCase.main(FirstTestCase.java:22)
+```
+
+# Resolved Error-1:
+
+> Go to buildpath -> configure Build Path -> Java Build path -> Click on `Class Path` -> then Click on Add Jars -> Add .jar files from the `lib` folders. 
+
+> And error resolved.
+
+<img src="img/webdriver-error-message-1.jpg">
